@@ -49,3 +49,51 @@
     color: blue;
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #c74710;
+    border-top: 4px solid #999;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+
+.footer_left {
+    flex-basis: 60%;
+    margin-left: 1.3em;
+}
+
+.footer_right {
+    flex-basis: 40%;
+}
+
+.footer_left h1 {
+    font-size: 1.3em;
+}
+
+.footer_left p {
+    font-size: .8em;
+}
+
+.footer_right a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_right a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
